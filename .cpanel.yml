@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/summer/drupal  # Add /<app_folder> if required
-    - /bin cp * $DEPLOYPATH                           #copy all from root
+    - export DEPLOYPATH=/home/summerbreezeair/drupal  # Add /<app_folder> if required
+    - /bin/cp -R * $DEPLOYPATH                          #copy all from root
