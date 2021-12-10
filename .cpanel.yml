@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/summerbreezeair/drupal
+    - export DEPLOYPATH=/home/summer/drupal
     - /bin/cp -R * $DEPLOYPATH
 
 #deployment:
