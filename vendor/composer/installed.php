@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '1a6a6457edc5aa857548df42a2a76d89a220e465',
+        'reference' => 'f35e94c433c7455f21cdea31ebc20cd82ede6d8e',
         'name' => 'drupal/legacy-project',
         'dev' => true,
     ),
@@ -795,6 +795,33 @@
             'reference' => '8.x-3.12',
             'dev_requirement' => false,
         ),
+        'drupal/feeds' => array(
+            'pretty_version' => '3.0.0-alpha11',
+            'version' => '3.0.0.0-alpha11',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/feeds',
+            'aliases' => array(),
+            'reference' => '8.x-3.0-alpha11',
+            'dev_requirement' => false,
+        ),
+        'drupal/feeds_ex' => array(
+            'pretty_version' => '1.0.0-alpha5',
+            'version' => '1.0.0.0-alpha5',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/feeds_ex',
+            'aliases' => array(),
+            'reference' => '8.x-1.0-alpha5',
+            'dev_requirement' => false,
+        ),
+        'drupal/feeds_tamper' => array(
+            'pretty_version' => '2.0.0-beta2',
+            'version' => '2.0.0.0-beta2',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/feeds_tamper',
+            'aliases' => array(),
+            'reference' => '8.x-2.0-beta2',
+            'dev_requirement' => false,
+        ),
         'drupal/field' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -969,7 +996,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '1a6a6457edc5aa857548df42a2a76d89a220e465',
+            'reference' => 'f35e94c433c7455f21cdea31ebc20cd82ede6d8e',
             'dev_requirement' => false,
         ),
         'drupal/link' => array(
@@ -1212,6 +1239,15 @@
                 0 => '9.3.0',
             ),
         ),
+        'drupal/tamper' => array(
+            'pretty_version' => '1.0.0-alpha2',
+            'version' => '1.0.0.0-alpha2',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/tamper',
+            'aliases' => array(),
+            'reference' => '8.x-1.0-alpha2',
+            'dev_requirement' => false,
+        ),
         'drupal/taxonomy' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -1374,6 +1410,12 @@
             'reference' => '83b609028194aa042ea33b5af2d41a7427de80e6',
             'dev_requirement' => false,
         ),
+        'flow/jsonpath' => array(
+            'dev_requirement' => false,
+            'replaced' => array(
+                0 => '*',
+            ),
+        ),
         'google/recaptcha' => array(
             'pretty_version' => '1.2.4',
             'version' => '1.2.4.0',
@@ -1480,6 +1522,15 @@
             'install_path' => __DIR__ . '/../masterminds/html5',
             'aliases' => array(),
             'reference' => 'f640ac1bdddff06ea333a920c95bbad8872429ab',
+            'dev_requirement' => false,
+        ),
+        'mtdowling/jmespath.php' => array(
+            'pretty_version' => '2.6.1',
+            'version' => '2.6.1.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../mtdowling/jmespath.php',
+            'aliases' => array(),
+            'reference' => '9b87907a81b87bc76d19a7fb2d61e61486ee9edb',
             'dev_requirement' => false,
         ),
         'nikic/php-parser' => array(
@@ -1618,6 +1669,15 @@
             'reference' => 'c9a85cd388afde68721d304bbb3257a068f5ab05',
             'dev_requirement' => false,
         ),
+        'querypath/querypath' => array(
+            'pretty_version' => '3.0.5',
+            'version' => '3.0.5.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../querypath/querypath',
+            'aliases' => array(),
+            'reference' => '6b8e2395fac61fac25bbe962f94def556cb85f7d',
+            'dev_requirement' => false,
+        ),
         'ralouphie/getallheaders' => array(
             'pretty_version' => '3.0.3',
             'version' => '3.0.3.0',
@@ -1653,6 +1713,15 @@
             'replaced' => array(
                 0 => '*',
             ),
+        ),
+        'softcreatr/jsonpath' => array(
+            'pretty_version' => '0.7.5',
+            'version' => '0.7.5.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../softcreatr/jsonpath',
+            'aliases' => array(),
+            'reference' => '008569bf80aa3584834f7890781576bc7b65afa7',
+            'dev_requirement' => false,
         ),
         'stack/builder' => array(
             'pretty_version' => 'v1.0.6',
